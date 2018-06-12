@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GeoLocatorFramework"
-  s.version      = "1.0.0"
+  s.version      = "1.3.0"
   s.summary      = "GeoLocatorFramework is to get the users current location and to get address"
 
   # This description is used to generate tags and improve search results.
@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
-
+    s.swift_version = "3.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   #  s.source       = { :path => '.' }
-  s.source       = { :git => "https://github.com/BeenaNagarajan/GeoLocatorFramework.git", :commit => "cb41331" }
+  s.source       = { :git => "https://github.com/BeenaNagarajan/GeoLocatorFramework.git", :tag => "1.3.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GeoLocatorFramework", "GeoLocatorFramework/*.{h,m,swift}"
+  s.source_files  = "GeoLocatorFramework", "GeoLocatorFramework/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
