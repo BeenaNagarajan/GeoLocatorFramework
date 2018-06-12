@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GeoLocatorFramework"
-  s.version      = "1.1.0"
+  s.version      = "1.0.0"
   s.summary      = "GeoLocatorFramework is to get the users current location and to get address"
 
   # This description is used to generate tags and improve search results.
